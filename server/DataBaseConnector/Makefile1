@@ -1,0 +1,11 @@
+all: db
+	
+db: main1.o db.o
+	g++ main1.o db.o -o db -L/usr/include/mysql -lmysqlclient
+main1.o: main1.cpp
+	g++ -c main1.cpp
+db.o: db.cpp
+	g++ -c db.cpp -L/usr/include/mysql -lmysqlclient
+	
+clean:
+	rm -rf *.o db	

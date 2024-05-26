@@ -1,0 +1,92 @@
+r
+b
+r
+n
+bacravaj
+anton
+123
+y
+d @ALL
+HELLO ALL!!! IM THE FIRST USER
+MY NAME IS ANTON
+~end
+s
+yes
+r
+n
+webstalt
+maria
+312
+y
+d @ALL
+HELLO ALL
+IM MARIA
+~end
+d bacravaj
+hello anton!
+~end
+s
+yes
+s
+bacravaj
+123
+d webstalt
+hello maria!
+~end
+s
+yes
+r
+n
+cat123
+persik
+aa22
+y
+d @ALL
+i want to EAT
+~end
+c hosts
+~users
+bacravaj
+webstalt
+~end
+~end
+hello hosts, i need food
+~end
+s
+yes
+s
+bacravaj
+123
+c hosts
+hello cat, i'll be late, maybe maria...
+~end
+s
+yes
+s
+webstalt
+321
+123
+333
+s
+webstalt
+312
+c hosts
+ill be soon!
+~end
+d bacravaj
+~end
+m
+p
+n
+masha
+m
+c
+s
+yes
+q
+
+
+
+
+
+
