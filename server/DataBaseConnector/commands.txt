@@ -1,0 +1,27 @@
+CREATE DATABASE chatDB;
+use chatDB
+CREATE TABLE users (	id INT AUTO_INCREMENT PRIMARY KEY,
+							name varchar(127) NOT NULL,
+							login varchar(127) NOT NULL,
+							pass varchar(127) NOT NULL,
+							UNIQUE (login));
+CREATE TABLE conversations(	id INT AUTO_INCREMENT PRIMARY KEY,
+							autor varchar(127) NOT NULL,
+							receiver varchar(127) NOT NULL,
+							text varchar(1023) NOT NULL,
+							isread int NOT NULL,
+							time DATETIME NOT NULL);
+insert users(name, login, pass) 
+VALUES 
+('johny','gangstanigga','2400'),
+('me','bacravaj','740dxDrive'),
+('sanya','darkpass','w124'),
+('bacr','root','Civic');
+
+insert conversations(autor, receiver, text, isread, time) VALUES 
+('gangstanigga','@ALL','mess1', 0, '2003-07-03 14:10:26'),
+('gangstanigga','@ALL','mess2', 1, '2003-07-03 14:10:26'),
+('gangstanigga','darkpass','mess3', 0, '2003-07-03 14:10:26'),
+('bacravaj','gangstanigga','mess4', 0, '2003-07-03 14:10:26'),
+('darkpass','root','mess5', 0, '2003-07-03 14:10:26'),
+('gangstanigga','@ALL','mess6', 0, '2003-07-03 14:10:26');
